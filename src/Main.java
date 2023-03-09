@@ -50,7 +50,7 @@ public class Main {
             sumArr += j;
         }
         double averSum =(double)sumArr / arr.length;
-        System.out.printf("Средняя сумма трат за месяц составила " + "%.2f \n",averSum);
+        System.out.printf("Средняя сумма трат за месяц составила %.2f рублей \n",averSum );
     }
 
     public static void task4() {
