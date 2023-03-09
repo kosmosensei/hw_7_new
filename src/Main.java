@@ -49,7 +49,7 @@ public class Main {
         for (int j : arr) {
             sumArr += j;
         }
-        double averSum =(double)sumArr / 30;
+        double averSum =(double)sumArr / arr.length;
         System.out.printf("Средняя сумма трат за месяц составила " + "%.2f \n",averSum);
     }
 
